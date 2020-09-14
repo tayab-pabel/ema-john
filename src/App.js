@@ -12,6 +12,8 @@ import Review from './components/Review/Review';
 import Manage from './components/Manage/Manage';
 import NotFound from './components/NotFound/NotFound';
 import ProductDetail from './components/ProductDetail/ProductDetail';
+import Shipment from './components/Shipment/Shipment';
+import Login from './components/Login/Login';
 
 function App() {
   return (
@@ -26,6 +28,12 @@ function App() {
         </Route>
         <Route path="/manage">
           <Manage></Manage>
+        </Route>
+        <Route path="/Login">
+          <Login></Login>
+        </Route>
+        <Route path="/Shipment">
+          <Shipment></Shipment>
         </Route>
         <Route exact path="/">
           <Shop></Shop>
